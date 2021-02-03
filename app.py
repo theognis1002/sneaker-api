@@ -4,6 +4,7 @@ from flask import Flask, jsonify, make_response, request
 from flask_marshmallow import Marshmallow
 from flask_sqlalchemy import SQLAlchemy
 
+
 app = Flask(__name__)
 basedir = os.path.abspath(os.path.dirname(__file__))
 

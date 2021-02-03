@@ -9,5 +9,5 @@ Information about sneaker brand, size, quantity, and sales can be queried throug
 1. `virtualenv venv`
 1. `source venv/bin/activate` or `venv/Scripts/activate`
 1. `pip install -r requirements.txt`
-1. `expo FLASK_APP=app.py`
+1. `export FLASK_APP=app.py`
 1. `flask run`
